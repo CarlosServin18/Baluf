@@ -47,3 +47,22 @@ footer {
     padding: 0.5rem;
     margin-top: 2rem;
 }
+nav a.active {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 0.25rem 0.5rem;
+}
+
+thead {
+    background-color: #333333;
+    color: #ffffff;
+}
