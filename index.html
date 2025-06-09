@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo de Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Panel de Control</h1>
+        <nav>
+            <ul>
+                <li><a href="#reportes">Reportes</a></li>
+                <li><a href="#operaciones">Operaciones</a></li>
+                <li><a href="#admin">Administraci&oacute;n</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="reportes">
+            <h2>Reportes</h2>
+            <div class="cards">
+                <article class="card" id="empleados">
+                    <h3>Empleados</h3>
+                    <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/users"></div>
+                </article>
+                <article class="card" id="vendings">
+                    <h3>Vendings</h3>
+                    <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/posts"></div>
+                </article>
+                <article class="card" id="inventario">
+                    <h3>Inventario</h3>
+                    <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/todos"></div>
+                </article>
+            </div>
+        </section>
+
+        <section id="operaciones">
+            <h2>Operaciones</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Vendings</h3>
+                    <p>Opciones para gestionar las m&aacute;quinas vending.</p>
+                </article>
+                <article class="card">
+                    <h3>Inventario</h3>
+                    <p>Opciones para administrar el inventario.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="admin">
+            <h2>Administraci&oacute;n</h2>
+            <p>Secci&oacute;n de gesti&oacute;n administrativa.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Demo minimalista</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
