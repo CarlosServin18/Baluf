@@ -1,5 +1,9 @@
 # Demo de Panel Web
 
-Este repositorio contiene una demo de un panel minimalista en los colores gris, negro y blanco. Incluye tres secciones principales: Reportes, Operaciones y Administración. Las tarjetas de la sección de Reportes cargan información de ejemplo desde un API pública.
+Este repositorio contiene una demo minimalista en gris, negro y blanco. El panel está dividido en varias páginas:
 
-Para probar la demo, abre `index.html` en un navegador web.
+- **Reportes** muestra información de ejemplo en tablas y consume un API pública.
+- **Operaciones** ofrece secciones para vendings e inventario.
+- **Administración** agrupa opciones administrativas.
+
+Abre `index.html` para comenzar y navega entre las páginas con el menú superior.
