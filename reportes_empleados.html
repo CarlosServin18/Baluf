@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes - Empleados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Panel de Control</h1>
+        <nav>
+            <ul>
+                <li><a href="reportes.html" class="active">Reportes</a></li>
+                <li><a href="operaciones.html">Operaciones</a></li>
+                <li><a href="admin.html">Administraci&oacute;n</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Reportes &gt; Empleados</h2>
+        <section>
+            <h3>Consumos</h3>
+            <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/users"></div>
+        </section>
+        <section>
+            <h3>Abonos</h3>
+            <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/posts"></div>
+        </section>
+        <section>
+            <h3>Saldo deudor</h3>
+            <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/todos"></div>
+        </section>
+        <section>
+            <h3>Activaci&oacute;n NIP</h3>
+            <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/comments"></div>
+        </section>
+        <section>
+            <h3>Consumo empleado</h3>
+            <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/albums"></div>
+        </section>
+        <section>
+            <h3>Producto consumido</h3>
+            <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/photos"></div>
+        </section>
+        <section>
+            <h3>Producto consumido por Empleado</h3>
+            <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/users"></div>
+        </section>
+        <section>
+            <h3>Estado de cuenta</h3>
+            <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/posts"></div>
+        </section>
+        <section>
+            <h3>Alarma inventarios</h3>
+            <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/todos"></div>
+        </section>
+        <section>
+            <h3>Centro de Costos</h3>
+            <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/comments"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Demo minimalista</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

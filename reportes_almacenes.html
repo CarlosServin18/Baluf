@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reportes</title>
+    <title>Reportes - Almacenes</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,25 +17,21 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <h2>Reportes</h2>
-        <div class="cards">
-            <article class="card">
-                <h3>Empleados</h3>
-                <p><a href="reportes_empleados.html">Ver reportes de empleados</a></p>
-            </article>
-            <article class="card">
-                <h3>Vendings</h3>
-                <p><a href="reportes_vendings.html">Ver reportes de vendings</a></p>
-            </article>
-            <article class="card">
-                <h3>Almacenes</h3>
-                <p><a href="reportes_almacenes.html">Ver reportes de almacenes</a></p>
-            </article>
-        </div>
+        <h2>Reportes &gt; Almacenes</h2>
+        <section>
+            <h3>Inventario Almac&eacute;n</h3>
+            <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/todos"></div>
+        </section>
+        <section>
+            <h3>Movimientos Almac&eacute;n</h3>
+            <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/users"></div>
+        </section>
+        <section>
+            <h3>Consumo Excedente</h3>
+            <div class="data" data-endpoint="https://jsonplaceholder.typicode.com/comments"></div>
+        </section>
     </main>
-
     <footer>
         <p>Demo minimalista</p>
     </footer>
