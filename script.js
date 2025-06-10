@@ -42,4 +42,12 @@ function cargarDatos() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', cargarDatos);
+document.addEventListener('DOMContentLoaded', () => {
+    cargarDatos();
+    const btn = document.getElementById('menu-toggle');
+    if (btn) {
+        btn.addEventListener('click', () => {
+            document.body.classList.toggle('menu-open');
+        });
+    }
+});
