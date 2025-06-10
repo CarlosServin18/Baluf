@@ -25,6 +25,13 @@ header {
     position: relative;
 }
 
+header img.logo {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    height: 40px;
+}
+
 #menu-toggle {
     position: absolute;
     left: 1rem;

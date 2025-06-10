@@ -4,4 +4,5 @@ Este repositorio contiene una demo de un panel minimalista en gris, negro y blan
 
 Abre `index.html` para comenzar. La página de inicio muestra tarjetas con accesos
 a **Reportes**, **Operaciones** y **Administración**. Usa el menú
-desplegable (icono ≡) para navegar rápidamente por todas las páginas.
+desplegable (icono ≡) para navegar rápidamente por todas las páginas. Ahora el
+encabezado incluye un pequeño logo a la derecha.
